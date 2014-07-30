@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry excluding="de/hallenbeck/indiserver/communication_drivers/|de/hallenbeck/indiserver/communication_drivers/PL2303Exception.java|de/hallenbeck/indiserver/communication_drivers/PL2303device.java|de/hallenbeck/indiserver/communication_drivers/PL2303driver.java|de/hallenbeck/indiserver/communication_drivers/serial.java|de/hallenbeck/indiserver/device_drivers/lx200autostar.java|de/hallenbeck/indiserver/device_drivers/lx200basic.java|de/hallenbeck/indiserver/device_drivers/telescope.java|de/hallenbeck/indiserver/server/INDIAndroidDevice.java|farom/astroidserver/MainActivity.java|farom/astroiddriver/jssc/|farom/astroidserver/CmdMessage.java|farom/astroidserver/StatusMessage.java|farom/astroidserver/INDIServerService.java" kind="src" path="src"/>
+	<classpathentry excluding="farom/astroiddriver/jssc/" kind="src" path="AstroidDriver"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
