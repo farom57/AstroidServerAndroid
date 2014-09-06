@@ -73,7 +73,7 @@ public class INDIAstroidDriverAOA extends INDIAstroidDriver implements Runnable 
 			UsbAccessory[] accessoryList = manager.getAccessoryList();
 			if (accessoryList == null) {
 				Log.e("accessory", "accessory not found");
-				return;
+				throw new INDIException("The accessory is not connected");
 			}
 			accessory = accessoryList[0];
 
